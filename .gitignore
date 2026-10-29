@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Pytest / cobertura
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Dados derivados (regeneráveis por src/clean_data.py e src/export_data.py)
+data/processed/*
+!data/processed/.gitkeep
+
+# Power BI — arquivos grandes locais ficam fora; screenshots entram
+*.pbix
+*.pbit
+
+# Sistema / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
